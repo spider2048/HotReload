@@ -15,7 +15,7 @@ Each time the DLL at `$RELOAD` is changed, it gets loaded automatically using `L
 
 # Building from source
 
-You need [meson](mesonbuild.org) and ninja. Get it from pip using:
+You need meson and ninja. Get it from pip using:
 ```bash
 pip install meson ninja
 ```
@@ -34,3 +34,5 @@ ninja -C build # to start building it
 ```
 
 The output can be found at `./build/HotReload.dll`.
+
+Use [Injector](https://github.com/nefarius/Injector) to inject the DLL into the target process.
