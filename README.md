@@ -33,6 +33,6 @@ meson setup build --buildtype release # or debug
 ninja -C build # to start building it
 ```
 
-The output can be found at `./build/HotReload.dll`.
+The resulting DLL can be found at `./build/HotReload.dll`.
 
 Use [Injector](https://github.com/nefarius/Injector) to inject the DLL into the target process.
